@@ -1,14 +1,14 @@
 body {
-  background-color: black;
+  background-color: blue;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   margin-top: 10%;
   font-family: Georgia, serif;
 }
 
-html{
+html {
   height: 100%;
   width: 100%;
 }
@@ -17,49 +17,32 @@ html{
   border: 1px solid black;
 }
 
-.container{
+.container {
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: red;
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
 }
 
-.pic{
+.pic {
   height: 600px;
   width: 400px;
   object-fit: cover;
-  border: 1px solid black;
+  border: 1px solid red;
 }
 
-
-h2{
-  color: black;
+h2 {
+  color: yellow;
 }
 
-h3{
-  color: black;
-}
-h4{
-  color: black;
+#start {
   text-align: left;
 }
 
-#turtles{
-  color: green;
-  font-size: 20px;
-}
-
-#humans{
-  color: brown;
-  font-size: 20px;
-}
-
-#start{
-  text-align: left;
-}
-
-#end{
+#end {
   text-align: right;
 }
+
+ 
